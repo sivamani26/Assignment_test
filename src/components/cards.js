@@ -27,7 +27,7 @@ const Cards = () => {
             <div className="item_discription">{item.discription}</div>
           </div>
         </div>
-      ))}
+      ))};
     </div>
   );
 };
