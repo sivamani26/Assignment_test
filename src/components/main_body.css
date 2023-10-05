@@ -188,6 +188,9 @@ input[type="text"] {
   .indiv_container {
     left: 20px;
   }
+  .cards_body{
+    padding-right: 10%;
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -242,6 +245,9 @@ input[type="text"] {
   .indiv_container {
     left: 20px;
   }
+  .cards_body{
+    padding-right: 10%;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -291,5 +297,9 @@ input[type="text"] {
  .indiv_container {
   left: 20px;
  }
+ .cards_body{
+  padding-right: 10%;
+  padding-left: 10%;
+}
 }
 

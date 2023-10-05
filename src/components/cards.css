@@ -71,7 +71,8 @@ img {
 }
 
 .item_discription {
-  font-size: .9vw;
+  font-size: 100%;
+  line-height: 20px;
 }
 
 .card_header {
@@ -118,14 +119,13 @@ img {
   .item_name,
   .item_age,
   .item_discription {
-    font-size: 1vw;
+    font-size: 3vw;
     line-height: 3vw;
   }
 
   .card_images {
     max-height: 51%;
   }
-
   .card_details {
     bottom: 31%;
     padding: 2vw;
@@ -144,7 +144,7 @@ img {
   .item_name,
   .item_age,
   .item_discription {
-    font-size: 1vw;
+    font-size: 3vw;
     line-height: 3vw;
   }
 
@@ -170,7 +170,7 @@ img {
   .item_name,
   .item_age,
   .item_discription {
-    font-size: 1vw;
+    font-size: 3vw;
     line-height: 3vw;
   }
 
