@@ -1,0 +1,295 @@
+.body_container {
+  width: 100%;
+  min-height: 200vh;
+  display: flex;
+  /* flex-direction: row;
+            align-items: center; */
+}
+
+body {
+  background-color: #F3F3F3;
+  min-height: 100vh;
+}
+
+.body_content {
+  position: absolute;
+  top: 20vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.indiv_container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  left: 50px;
+}
+
+.input_container {
+  position: relative;
+  border-radius: 6px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 30px;
+}
+
+.search_icon {
+  background: url(./assets/magnifyglass.svg);
+  background-size: 1.5vw;
+  font-size: 1vw;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  padding-left: 40px;
+  opacity: 62%;
+}
+
+.search_input {
+  flex: 1;
+  height: 40%;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  font-size: 10px;
+  padding-left: 50px;
+  background-image: url(./assets/magnifyglass.svg);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  outline-width: thin;
+  outline-color: rgb(138, 138, 138);
+
+}
+
+.filter_container {
+  margin-left: 20px;
+}
+
+.filter_btn {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  border-radius: 6px;
+  color: #1e1e1e;
+  font-size: 1vw;
+  text-transform: uppercase;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+.filter_logo_container {
+  width: 20px;
+  padding: 4px;
+}
+
+.filter_logo {
+  width: 100%;
+}
+
+.filter_name {
+  margin-left: 8px;
+}
+
+.surprise_btn {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: solid 1px #dedede;
+  border-radius: 6px;
+  background-color: #ebe9e5;
+  cursor: pointer;
+  left: 70%;
+  position: relative;
+}
+
+.surprise_btn:hover {
+  background-color: #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+.surprise_logo {
+  padding: 4px 3px 0 0;
+}
+
+.surprise_name {
+  margin-left: 5px;
+  color: #b57a50;
+}
+
+
+.svg_container {
+  position: absolute;
+  top: 35%;
+  left: 2.7%;
+}
+
+.view2 {
+  padding-left: 5px;
+  position: relative;
+}
+
+.cards_body {
+  position: absolute;
+  top: 65%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 970px) {
+
+  .input_container {
+    height: 50px;
+    width: 100%;
+  }
+
+  .body_container {
+    width: 100%;
+    min-height: 20px;
+  }
+
+  .filter_container {
+    height: 50px;
+    width: 100%;
+  }
+
+  .filter_btn {
+    height: 50px;
+    width: 125px;
+  }
+
+  .filter_logo {
+    width: 20px;
+    padding: 0;
+  }
+
+  .filter_name {
+    font-size: 15px;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    height: 40px;
+    padding-left: 40px;
+    width: 454px;
+  }
+
+  .indiv_container {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+
+  .svg_container,
+  .surprise_btn {
+    display: none !important;
+  }
+
+  .search_icon {
+    width: 6vw;
+    height: 4vh;
+    bottom: 23px;
+  }
+
+  .input_container {
+    height: 50px;
+    width: 100%;
+  }
+
+  .body_container {
+    width: 100%;
+    min-height: 20px;
+  }
+
+  .filter_container {
+    height: 50px;
+    width: 100%;
+  }
+
+  .filter_btn {
+    height: 50px;
+    width: 125px;
+  }
+
+  .filter_logo {
+    width: 20px;
+    padding: 0;
+  }
+
+  .filter_name {
+    font-size: 15px;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    height: 40px;
+    padding-left: 40px;
+    width: 454px;
+  }
+
+  .indiv_container {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .svg_container,
+  .surprise_btn {
+            display: none !important;
+  }
+  
+.search_icon {
+  width: 6vw;
+  height: 4vh;
+  bottom:23px;
+}
+  .input_container {
+    height: 50px;
+    width: 100%;
+  }
+  .body_container {
+            width: 100%;
+            min-height: 20px;
+        }
+  .filter_container{
+    height: 50px;
+    width: 100%;
+  }
+  .filter_btn {
+            height: 50px;
+            width: 125px;
+  }
+  .filter_logo {
+            width: 20px;
+            padding: 0;
+  }
+  
+  .filter_name {
+            font-size: 15px;
+  }
+  input[type="text"] {
+    flex: 1;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-left: 40px;
+    width: 330px;
+  }
+ .indiv_container {
+  left: 20px;
+ }
+}
+
