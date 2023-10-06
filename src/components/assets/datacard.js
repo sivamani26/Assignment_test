@@ -99,7 +99,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -147,7 +147,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -195,7 +195,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -243,7 +243,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -291,7 +291,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -339,7 +339,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -387,7 +387,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -435,7 +435,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -483,7 +483,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
@@ -531,7 +531,7 @@ export const data = [
   {
     name: "Mahishasura Mardhini",
     discription:
-      "Taxila was an important centre for flourishing of monastic activity during the Kushan per..",
+      "Mahishasura is a Sanskrit word composed of mahisha meaning buffalo and asura meaning..",
     age: "200CE",
     image: Image2,
   },
