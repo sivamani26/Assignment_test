@@ -71,7 +71,7 @@ img {
 }
 
 .item_discription {
-  font-size: 100%;
+  font-size: 70%;
   line-height: 20px;
 }
 
@@ -118,8 +118,7 @@ img {
 
   h2,
   .item_name,
-  .item_age,
-  .item_discription {
+  .item_age {
     font-size: 3vw;
     line-height: 3vw;
   }
@@ -132,6 +131,10 @@ img {
     padding: 2vw;
     border-radius: 0px 0px 5px 5px;
   }
+  .item_discription {
+    font-size: 70%;
+    line-height: 100%;
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -143,10 +146,9 @@ img {
 
   h2,
   .item_name,
-  .item_age,
-  .item_discription {
-    font-size: 3vw;
-    line-height: 3vw;
+  .item_age{
+    font-size: 100%;
+    line-height: 100%;
   }
 
   .card_images {
@@ -157,6 +159,10 @@ img {
     bottom: 31%;
     padding: 2vw;
     border-radius: 0px 0px 5px 5px;
+  }
+  .item_discription {
+    font-size: 70%;
+    line-height: 100%;
   }
 }
 
@@ -169,12 +175,16 @@ img {
 
   h2,
   .item_name,
-  .item_age,
-  .item_discription {
+  .item_age
+  {
     font-size: 3vw;
     line-height: 3vw;
   }
 
+  .item_discription {
+    font-size: 70%;
+    line-height: 100%;
+  }
   .card_images {
     max-height: 50%;
   }
