@@ -24,7 +24,7 @@ const Cards = () => {
               <div className="item_name">{item.name}</div>
               <div className="item_age">{item.age}</div>
             </div>
-            <div className="item_discription">{item.discription}</div>
+            <article className="item_discription">{item.discription}</article>
           </div>
         </div>
       ))};
